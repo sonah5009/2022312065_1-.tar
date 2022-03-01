@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>시간표</title>
+<link rel="stylesheet" href="./styles.css"/>
+
+</head>
+<body>
+  <table style="width: 100%;">
+    <caption><h1>2022학년도 1학기 시간표</h1></caption>
+      <tr>
+        <th></th>
+        <td class="font">월</td>
+        <td class="font">화</td>
+        <td class="font">수</td>
+        <td class="font">목</td>
+        <td class="font">금</td>
+    </tr>
+      <tr>
+        <th class="hour">9</th>
+        <td></td>
+        <td></td>
+        <td class="color1">
+          <span>컴개</span><br>
+          <span>48956</span><br>
+          <span>김교수</span>
+        </td>
+        <td></td>
+        <td class="color5" rowspan="3">
+          <span>물리</span><br>
+          <span>54126</span><br>
+          <span>이교수</span>
+        </td>
+      </tr>
+      <tr>
+        <th class="hour">10</th>
+        <td class="color2">
+          <span>미적분</span><br>
+          <span>32478</span><br>
+          <span>최교수</span>
+        </td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th class="hour">11</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th class="hour">12</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th class="hour">13</th>
+        <td></td>
+        <td class="color3">
+          <span>영어쓰기</span><br>
+          <span>51207</span><br>
+          <span>임교수</span>
+        </td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th class="hour">14</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="color4" rowspan="2">
+          <span>창융디</span><br>
+          <span>64855</span><br>
+          <span>나교수</span>
+        </td>
+      </tr>
+      <tr>
+        <th class="hour">15</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+  </table><br>
+  <h2>새 수업 추가</h2>
+  <div> 
+      <form method="post" action="next.html">
+      과목명 <input type="text" name="name" placeholder="과목명을 적으세요" /><br>
+      교수명 <input type="text" name="name" placeholder="교수명을 적으세요" /><br>
+      시간
+      <input type="checkbox" name="day" value="mon" />월
+      <input type="checkbox" name="day" value="tue" />화
+      <input type="checkbox" name="day" value="wed" />수
+      <input type="checkbox" name="day" value="thu" />목
+      <input type="checkbox" name="day" value="fri" />금<br>
+      <select name="시">
+          <option>9</option>
+          <option>10</option>
+          <option>11</option>
+          <option>12</option>
+          <option>13</option>
+          <option>14</option>
+          <option>15</option>
+      </select>시
+      <select name="분">
+          <option>0</option>
+          <option>15</option>
+          <option>30</option>
+          <option>45</option>
+      </select>분~
+      <select name="시">
+          <option>9</option>
+          <option>10</option>
+          <option>11</option>
+          <option>12</option>
+          <option>13</option>
+          <option>14</option>
+          <option>15</option>
+      </select>시
+      <select name="분">
+          <option>0</option>
+          <option>15</option>
+          <option>30</option>
+          <option>45</option>
+      </select>분
+      <br>
+      <br>
+      장소 &nbsp; <input type="text" name="name" placeholder="강의실 번호를 적으세요" /><br>
+      <br>
+      <input type="submit"; style="font-weight: bold;">
+    </form>
+  </div>
+</body>
+</html>
